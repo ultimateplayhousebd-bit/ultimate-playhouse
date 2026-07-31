@@ -1,0 +1,6 @@
+{
+  "name": "Ultimate Playhouse",
+  "description": "The Home of FC Mobile & eFootball Tournaments",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
