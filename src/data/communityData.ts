@@ -68,7 +68,7 @@ export const communityData: CommunityData = {
     // =========================================================================
     // EDIT YOUR GOOGLE FORM REGISTRATION LINK HERE:
     // =========================================================================
-    registrationFormUrl: "https://YOUR_GOOGLE_FORM_LINK_HERE",
+    registrationFormUrl: "https://forms.gle/cUdutYC16YnZiJXy8",
     
     format: "1v1 Head-to-Head | Single Elimination Knockout (BO3 Finals)",
     platform: "FC Mobile (iOS/Android) & eFootball (Mobile)",
