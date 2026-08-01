@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Trophy, Sparkles } from 'lucide-react';
+import { Menu, X, Trophy, Sparkles, HelpCircle } from 'lucide-react';
 
 interface NavbarProps {
   communityName: string;
@@ -121,6 +121,15 @@ export const Navbar: React.FC<NavbarProps> = ({ communityName, registrationFormU
 
           {/* Action Buttons: Quick Edit Helper & Register CTA */}
           <div className="hidden md:flex items-center space-x-3">
+            <button
+              onClick={onOpenEditGuide}
+              id="edit-guide-nav-btn"
+              title="How to edit website text & form link"
+              className="px-3.5 py-2 rounded-lg bg-[#111111] hover:bg-[#1a1a1a] text-gray-400 hover:text-[#D4AF37] border border-white/10 hover:border-yellow-600/30 text-xs font-bold uppercase tracking-wider transition-all flex items-center gap-1.5"
+            >
+              <HelpCircle className="w-4 h-4 text-[#D4AF37]" />
+              <span>Edit Guide</span>
+            </button>
 
             <a
               href={registrationFormUrl}
