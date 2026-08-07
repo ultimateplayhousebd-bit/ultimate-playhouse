@@ -135,9 +135,50 @@ export const communityData: CommunityData = {
         team: "Urugauy",
         stat: "21 Goals",
       }
-    }
-  ],
+    },
+    {
+    seasonId: "efootball-world-cup-season-1",
+    seasonName: "eFootball World Cup Season 1",
+    game: "eFootball",
+    dateCompleted: "July 2026",
 
+    champion: {
+      name: "Raisul Islam",
+      gamerTag: "You are finished",
+      avatar: brazilImg,
+      role: "Champion",
+      team: "Serbia",
+      stat: "Undefeated Champion",
+    },
+
+    runnerUp: {
+      name: "Asif Qureshi",
+      gamerTag: "Liverpool R",
+      avatar: germanyImg,
+      role: "Runner-up",
+      team: "Brazil",
+      stat: "The 2nd Best",
+    },
+
+    mvp: {
+      name: "Hamim Minhaz",
+      gamerTag: "Manchester United FC",
+      avatar: qatarImg,
+      role: "3rd Place",
+      team: "Argentina",
+      stat: "The 3rd Best",
+    },
+
+    goldenBoot: {
+      name: "Raisul Islam",
+      gamerTag: "You are finished",
+      avatar: uruguayImg,
+      role: "Golden Boot",
+      team: "Serbia",
+      stat: "20 Goals",
+    }
+  }
+],
   // 4. COMMUNITY SOCIAL LINKS (EDITABLE FOR YOUR GROUPS)
   socialLinks: [
     {
