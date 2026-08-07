@@ -51,10 +51,6 @@ export const Footer: React.FC<FooterProps> = ({ data, onOpenEditGuide }) => {
             </p>
             <div className="pt-1">
               
-                <HelpCircle className="w-3.5 h-3.5" />
-                <span>Beginner's Edit Guide</span>
-              </button>
-            </div>
           </div>
 
           {/* Nav Sections Col */}
@@ -123,7 +119,6 @@ export const Footer: React.FC<FooterProps> = ({ data, onOpenEditGuide }) => {
             <span>Top</span>
             <ArrowUp className="w-3.5 h-3.5" />
           </button>
-        </div>
 
       </div>
 
