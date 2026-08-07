@@ -46,9 +46,9 @@ export const communityData: CommunityData = {
   // 2. CURRENT TOURNAMENT DETAILS (EDIT EVERYTHING FOR UPCOMING EVENTS HERE!)
   currentTournament: {
     id: "season-1-champions-league",
-    title: "FC Mobile UEFA Champions League",
+    title: "E-footballUEFA Champions League",
     subtitle: "Season 1",
-    game: "FC Mobile 2026",
+    game: "E-football 2026",
     
     // Poster image URL or imported image
     posterUrl: posterImg,
@@ -56,30 +56,30 @@ export const communityData: CommunityData = {
     description: "Get ready for Season 1! The ultimate mobile football tournament where the finest tactics, pace, and penalty precision collide. Battle through group stages into high-stakes knockouts to crown the supreme champion.",
     
     // Event Schedule & Fees
-    date: "August 10, 2026",
+    date: "August 15, 2026",
     time: "11:00 PM (BD Time)",
     entryFee: "৳50 (BDT) per Player",
-    prizePool: "৳1,600 (BDT)",
+    prizePool: "৳1,250 (BDT)",
     
     // Registration Deadline for the Live Countdown Timer
-    registrationDeadlineIso: "2026-08-09T23:59:00",
-    registrationDeadlineText: "August 09, 2026 at 11:59 PM",
+    registrationDeadlineIso: "2026-08-14T23:59:00",
+    registrationDeadlineText: "August 14, 2026 at 11:59 PM",
     
     // =========================================================================
     // EDIT YOUR GOOGLE FORM REGISTRATION LINK HERE:
     // =========================================================================
     registrationFormUrl: "https://forms.gle/cUdutYC16YnZiJXy8",
     
-    format: "1v1 Head-to-Head | Single Elimination Knockout (BO3 Finals)",
+    format: "1v1 Head-to-Head | Home & Away Group & Knockout Matches (BO3 Finals)",
     platform: "FC Mobile (iOS/Android) & eFootball (Mobile)",
     
     // Prize Pool Distribution Breakdown
     prizeBreakdown: [
-      { position: "1st Place (Champion)", prize: "৳700 + Certificate", badge: "🥇 Gold", highlight: true },
-      { position: "2nd Place (Runner-up)", prize: "৳400 + Certificate", badge: "🥈 Silver" },
-      { position: "3rd Place", prize: "৳200 + Certificate", badge: "🥉 Bronze" },
-      { position: "4th Place", prize: "৳100", badge: "🏅 Steel" },
-      { position: "Top Scorer", prize: "৳150", badge: "⚽ Golden Boot" },
+      { position: "1st Place (Champion)", prize: "৳400 + Certificate", badge: "🥇 Gold", highlight: true },
+      { position: "2nd Place (Runner-up)", prize: "৳200 + Certificate", badge: "🥈 Silver" },
+      { position: "3rd Place", prize: "৳125 + Certificate", badge: "🥉 Bronze" },
+      { position: "4th Place", prize: "৳75", badge: "🏅 Steel" },
+      { position: "Top Scorer", prize: "৳100", badge: "⚽ Golden Boot" },
       { position: "MvP", prize: "৳50", badge: "⭐ Most Goals in a Match" }
     ],
 
