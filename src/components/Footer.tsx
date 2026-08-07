@@ -50,11 +50,7 @@ export const Footer: React.FC<FooterProps> = ({ data, onOpenEditGuide }) => {
               {data.tagline}. The premier competitive arena for FC Mobile & eFootball gamers.
             </p>
             <div className="pt-1">
-              <button
-                onClick={onOpenEditGuide}
-                id="footer-edit-guide-btn"
-                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#0a0a0a] border border-white/10 hover:border-yellow-600/30 text-[10px] text-[#D4AF37] font-bold uppercase tracking-widest transition-all"
-              >
+              
                 <HelpCircle className="w-3.5 h-3.5" />
                 <span>Beginner's Edit Guide</span>
               </button>
