@@ -49,7 +49,7 @@ export const communityData: CommunityData = {
   // 2. CURRENT TOURNAMENT DETAILS (EDIT EVERYTHING FOR UPCOMING EVENTS HERE!)
   currentTournament: {
     id: "season-1-champions-league",
-    title: "E-footballUEFA Champions League",
+    title: "E-football UEFA Champions League",
     subtitle: "Season 1",
     game: "E-football 2026",
     
