@@ -21,7 +21,6 @@ export default function App() {
         communityName={communityData.communityName}
         logoImage={communityData.logoImage}
         registrationFormUrl={communityData.currentTournament.registrationFormUrl}
-        onOpenEditGuide={() => setIsEditGuideOpen(true)}
       />
 
       {/* Main Content Area */}
