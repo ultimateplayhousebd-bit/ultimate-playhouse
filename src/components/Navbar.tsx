@@ -5,7 +5,6 @@ interface NavbarProps {
   communityName: string;
   registrationFormUrl: string;
   logoImage?: string;
-  onOpenEditGuide: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({ communityName, registrationFormUrl, logoImage, onOpenEditGuide }) => {
