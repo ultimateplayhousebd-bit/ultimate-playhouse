@@ -12,6 +12,9 @@ import brazilFlag from '../assets/Flag/Brazilflag.png';
 import germanFlag from '../assets/Flag/Germanflag.png';
 import qatarFlag from '../assets/Flag/Qatarflag.png';
 import uruguayFlag from '../assets/Flag/Uruguayflag.png';
+import efserbiaImg from '../assets/images/EfSerbia.png';
+import efbrazilImg from '../assets/images/EfBrazil.png';
+import efargentinaImg from '../assets/images/EfArgentina.png';
 
 /**
  * =============================================================================
@@ -145,7 +148,7 @@ export const communityData: CommunityData = {
     champion: {
       name: "Raisul Islam",
       gamerTag: "You are finished",
-      avatar: brazilImg,
+      avatar: efserbiaImg,
       role: "Champion",
       team: "Serbia",
       stat: "Undefeated Champion",
@@ -154,7 +157,7 @@ export const communityData: CommunityData = {
     runnerUp: {
       name: "Asif Qureshi",
       gamerTag: "Liverpool R",
-      avatar: germanyImg,
+      avatar: efbrazilImg,
       role: "Runner-up",
       team: "Brazil",
       stat: "The 2nd Best",
@@ -163,7 +166,7 @@ export const communityData: CommunityData = {
     mvp: {
       name: "Hamim Minhaz",
       gamerTag: "Manchester United FC",
-      avatar: qatarImg,
+      avatar: efargentinaImg,
       role: "3rd Place",
       team: "Argentina",
       stat: "The 3rd Best",
@@ -172,7 +175,7 @@ export const communityData: CommunityData = {
     goldenBoot: {
       name: "Raisul Islam",
       gamerTag: "You are finished",
-      avatar: uruguayImg,
+      avatar: efserbiaImg,
       role: "Golden Boot",
       team: "Serbia",
       stat: "20 Goals",
