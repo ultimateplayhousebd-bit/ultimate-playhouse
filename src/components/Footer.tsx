@@ -121,7 +121,7 @@ export const Footer: React.FC<FooterProps> = ({ data, onOpenEditGuide }) => {
           </button>
 
       </div>
-
+    </div> 
     </footer>
   );
 };
