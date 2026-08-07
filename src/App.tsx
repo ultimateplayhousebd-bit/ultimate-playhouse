@@ -4,7 +4,6 @@ import { HomeSection } from './components/HomeSection';
 import { TournamentSection } from './components/TournamentSection';
 import { HallOfFameSection } from './components/HallOfFameSection';
 import { Footer } from './components/Footer';
-import { EditGuideModal } from './components/EditGuideModal';
 import { communityData } from './data/communityData';
 
 export default function App() {
@@ -49,14 +48,6 @@ export default function App() {
       {/* Footer */}
       <Footer
         data={communityData}
-        onOpenEditGuide={() => setIsEditGuideOpen(true)}
-      />
-
-      {/* Owner Beginner's Edit Guide Modal */}
-      <EditGuideModal
-        isOpen={isEditGuideOpen}
-        onClose={() => setIsEditGuideOpen(false)}
-        formUrl={communityData.currentTournament.registrationFormUrl}
       />
     </div>
   );
