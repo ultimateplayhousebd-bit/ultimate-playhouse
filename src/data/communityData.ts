@@ -96,7 +96,7 @@ export const communityData: CommunityData = {
       "Decisions made by Ultimate Playhouse tournament referees are final."
     ],
 
-    status: 'Upcoming'
+    status: 'Registration On Going'
   },
 
   // 3. HALL OF FAME (PAST SEASONS & CHAMPIONS)
