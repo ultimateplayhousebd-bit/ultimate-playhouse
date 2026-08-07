@@ -7,8 +7,6 @@ import { Footer } from './components/Footer';
 import { communityData } from './data/communityData';
 
 export default function App() {
-  const [isEditGuideOpen, setIsEditGuideOpen] = useState(false);
-
   const handleScrollToTournament = () => {
     const el = document.getElementById('tournament');
     if (el) {
